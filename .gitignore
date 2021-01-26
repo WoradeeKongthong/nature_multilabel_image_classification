@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+*.h5
+nature_data.npz
+miml_labels_1.csv
+images/
+images/*
