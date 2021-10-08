@@ -24,7 +24,6 @@ The models used in this multi-label image classification problem are
 
 ## Prediction
 The best model from above are selected and make a prediction.
-(Note : Need to get model.h5 from the selected model ipython notebook by running it first)
 The prediction process is presented in 05_make_prediction.ipynb.  
 There are both prediction of one image and several images (batch) at a time.
 
