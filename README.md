@@ -14,18 +14,14 @@ source : https://www.dropbox.com/s/0htmeoie69q650p/miml_dataset.zip?dl=0
 (You can follow the tutorial of multi-label image classification in this blog https://vijayabhaskar96.medium.com/multi-label-image-classification-tutorial-with-keras-imagedatagenerator-cd541f8eaf24, I only use his dataset.)  
 Originally, images are in 'images' folder. Their tags are stored in miml_labels_2.csv.  
 In this project, I preprocess the dataset and save it in .npz format. Then I use in-memory approach to ingest dataset into the notebooks.  
-All preprecessing of the dataset is in 01_data_preparation.ipynb.
 
 ## Model Development (are performed on Google COLAB)
 The models used in this multi-label image classification problem are
 - NN with VGG blocks  
 - NN with Keras pre-trained VGG16 as a feature extractor  
-- NN with Keras pre-trained ResNet50 as a fetaure extractor  
+
+Both preprecessing and model development are in the same notebook.
 
 ## Prediction
 The best model from above are selected and make a prediction.
-The prediction process is presented in 05_make_prediction.ipynb.  
 There are both prediction of one image and several images (batch) at a time.
-
-## My best trained models
-- model with pretrained ResNet50 
